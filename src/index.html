@@ -1,17 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles.css">
-  <title>Vanilla JavaScript App</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collmead - Bridging Technological and Accessibility Barriers in Higher Education</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .parallax {
+            background-image: url('https://img.freepik.com/free-photo/green-park-view_1417-1492.jpg?w=1380&t=st=1692046448~exp=1692047048~hmac=fed2ff47781006e8aaf13046e813ffff7fb422ebff42aebec2a90f95a99c1475');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center center;
+            height: 100vh;
+        }
+        .parallax-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+        }
+	title {color:#ccc;}
+    </style>
 </head>
-
 <body>
-  <main>
-    <h1>Vanilla JavaScript Appa</h1>
-  </main>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <a class="navbar-brand" href="#">Collmead</a>
+            </div>
+        </nav>
+        <div class="parallax">
+            <div class="parallax-content">
+                <h1 class="display-4 text-center text-black">Removing Barriers, Unlocking Futures.</h1>
+                <p class="lead text-center text-black">Enabling students through inclusive and innovative experiences.</p>
+                <a href="#about" class="btn btn-default btn-lg">Learn More</a>
+            </div>
+        </div>
+    </header>
+    
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="text-center">About Collmead</h2>
+            <p class="text-center">Collmead is an innovative startup dedicated to breaking down technological and accessibility barriers in higher education. Our mission is to empower individuals to access quality education without constraints. By leveraging state-of-the-art technologies, we're revolutionizing the way education is accessed, making learning more inclusive, engaging, and available to all.</p>
+        </div>
+    </section>
+    
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <p class="text-center">&copy; 2023 Collmead. All rights reserved. <small><a href="https://www.freepik.com/free-photo/green-park-view_1278319.htm#query=nature%20background&position=2&from_view=keyword&track=ais">Image by 4045</a> on Freepik</p>
+           
+        </div></small>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
-
 </html>
